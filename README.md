@@ -38,13 +38,13 @@ The report includes:
 
 | Success | Failure |
 |---------|---------|
-| **PPO: Successfully finds and attaches to box** <br/> ![PPO Success - Difficulty 3](./gifs/Diff3_PPO_PASS.gif) | **PPO: Failure - Gets stuck against walls** <br/> ![PPO Failure - Difficulty 3](./gifs/Diff3_PPO_FAIL.gif) |
+| **PPO: Successfully finds and attaches to box** <br/> <img src="./gifs/Diff3_PPO_PASS.gif" width="400"/> | **PPO: Failure - Gets stuck against walls** <br/> <img src="./gifs/Diff3_PPO_FAIL.gif" width="400"/> |
 
 ### DQN Agent - Difficulty 3
 
 | Success | Failure |
 |---------|---------|
-| **DQN: Successfully completes the task** <br/> ![DQN Success - Difficulty 3](./gifs/Diff3_DDQN_PASS.gif) | **DQN: Failure - Suboptimal strategy** <br/> ![DQN Failure - Difficulty 3](./gifs/Diff3_DDQN_FAIL.gif) |
+| **DQN: Successfully completes the task** <br/> <img src="./gifs/Diff3_DDQN_PASS.gif" width="400"/> | **DQN: Failure - Suboptimal strategy** <br/> <img src="./gifs/Diff3_DDQN_FAIL.gif" width="400"/> |
 
 ---
 
@@ -191,7 +191,7 @@ Fill in the following table with results for each algorithm across different dif
 | Algorithm | Difficulty 0 (Static) | Difficulty 1 | Difficulty 2 (Blinking) | Difficulty 3 (Moving+Blinking) | Notes |
 | --- | --- | --- | --- | --- | --- |
 | PPO | -1981.2 | -1991.2 | — | — | |
-| PPO + LSTM | — | -1992.8 | — | — | |
+| PPO + LSTM | -1991.0 | -1992.8 | — | — | |
 | **PPO + Heuristics** | -1800.1 | — | — | 1845.78  | |
 | DDQN | -1883.6 | —  | — | 835.6 | |
 | **Best Overall** | -1800.1 | — | — | 1845.78 | |
