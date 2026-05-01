@@ -190,14 +190,11 @@ Fill in the following table with results for each algorithm across different dif
 
 | Algorithm | Difficulty 0 (Static) | Difficulty 1 | Difficulty 2 (Blinking) | Difficulty 3 (Moving+Blinking) | Notes |
 | --- | --- | --- | --- | --- | --- |
-| PPO | — | — | — | — | |
-| PPO + LSTM | — | — | — | — | |
-| PPO + Heuristics | — | — | — | — | |
-| PPO + RS | — | — | — | — | |
-| DQN | — | — | — | — | |
-| RSSM | — | — | — | — | |
-| FSM PPO | — | — | — | — | |
-| **Best Overall** | — | — | — | — | |
+| PPO | -1981.2 | -1991.2 | — | — | |
+| PPO + LSTM | — | -1992.8 | — | — | |
+| **PPO + Heuristics** | -1800.1 | — | — | 1845.78  | |
+| DDQN | -1883.6 | —  | — | 835.6 | |
+| **Best Overall** | -1800.1 | — | — | 1845.78 | |
 
 ## Project Structure
 
