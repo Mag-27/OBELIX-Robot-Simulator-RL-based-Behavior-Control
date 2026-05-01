@@ -68,6 +68,19 @@ The game can be played manually by executing the `manual_play.py` file. The robo
 pip install -r requirements.txt
 ```
 
+### Dependencies & Libraries
+
+This project uses the following Python libraries:
+
+| Library | Purpose |
+| --- | --- |
+| **PyTorch** (`torch`, `torch.nn`, `torch.optim`) | Deep learning framework for implementing neural networks and RL algorithms |
+| **NumPy** (`numpy`) | Numerical computing and array operations |
+| **OpenCV** (`cv2`) | Computer vision and GUI rendering for environment visualization |
+| **Python Standard Library** | `os`, `argparse`, `random`, `typing`, `json` - utility and file handling |
+
+**Python Version:** 3.7+
+
 ### Playing Manually
 
 ```bash
