@@ -32,21 +32,19 @@ The report includes:
 
 ---
 
-### Successful Attempts
+## 🎥 Demo Videos
 
-**PPO Agent - Difficulty 3 (Moving + Blinking Box)**
-![PPO Success - Difficulty 3](./gifs/Diff3_PPO_PASS.gif)
+### PPO Agent - Difficulty 3
 
-**DQN Agent - Difficulty 3 (Moving + Blinking Box)**
-![DQN Success - Difficulty 3](./gifs/Diff3_DDQN_PASS.gif)
+| Success | Failure |
+|---------|---------|
+| **PPO: Successfully finds and attaches to box** <br/> ![PPO Success - Difficulty 3](./gifs/Diff3_PPO_PASS.gif) | **PPO: Failure - Gets stuck against walls** <br/> ![PPO Failure - Difficulty 3](./gifs/Diff3_PPO_FAIL.gif) |
 
-### Failed Attempts & Learning Progress
+### DQN Agent - Difficulty 3
 
-**PPO Agent - Difficulty 3 Failure Case**
-![PPO Failure - Difficulty 3](./gifs/Diff3_PPO_FAIL.gif)
-
-**DQN Agent - Difficulty 3 Failure Case**
-![DQN Failure - Difficulty 3](./gifs/Diff3_DDQN_FAIL.gif)
+| Success | Failure |
+|---------|---------|
+| **DQN: Successfully completes the task** <br/> ![DQN Success - Difficulty 3](./gifs/Diff3_DDQN_PASS.gif) | **DQN: Failure - Suboptimal strategy** <br/> ![DQN Failure - Difficulty 3](./gifs/Diff3_DDQN_FAIL.gif) |
 
 ---
 
