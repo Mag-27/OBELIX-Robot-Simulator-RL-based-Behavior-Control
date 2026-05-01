@@ -93,8 +93,8 @@ def _load_once():
 
     base = os.path.dirname(__file__)
 
-    policy_path = os.path.join(base, "weights_rssm_ppo.pth")
-    wm_path = os.path.join(base, "world_model.pth")
+    policy_path = os.path.join(base, "Weights/weights_rssm_ppo.pth")
+    wm_path = os.path.join(base, "Weights/world_model.pth")
 
     if not os.path.exists(policy_path):
         raise FileNotFoundError(policy_path)

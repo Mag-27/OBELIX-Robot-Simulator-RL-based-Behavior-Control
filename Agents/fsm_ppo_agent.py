@@ -49,7 +49,7 @@ def _load_once():
     import torch.nn as nn
 
     submission_dir = os.path.dirname(__file__)
-    wpath = os.path.join(submission_dir, "weights_ppo.pth")
+    wpath = os.path.join(submission_dir, "Weights/weights_ppo.pth")
 
     # ✅ EXACT TRAINING ARCHITECTURE
     class PolicyNetwork(nn.Module):

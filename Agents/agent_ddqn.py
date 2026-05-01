@@ -25,7 +25,7 @@ def _load_once():
         return
 
     submission_dir = os.path.dirname(__file__)
-    wpath = os.path.join(submission_dir, "weights_ddqn.pth")
+    wpath = os.path.join(submission_dir, "Weights/weights_ddqn.pth")
 
     model = nn.Sequential(
         nn.Linear(N_OBS, 128), nn.ReLU(),

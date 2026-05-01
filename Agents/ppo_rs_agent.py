@@ -21,7 +21,7 @@ def _load_once():
         return
 
     submission_dir = os.path.dirname(__file__)
-    wpath = os.path.join(submission_dir, "weights_ppo_rs.pth")
+    wpath = os.path.join(submission_dir, "Weights/weights_ppo_rs.pth")
 
     class PolicyNetwork(nn.Module):
         def __init__(self):
